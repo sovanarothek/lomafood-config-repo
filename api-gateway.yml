@@ -4,8 +4,11 @@ server:
 spring:
   cloud:
     gateway:
-      routes: []
-
+routes:
+        - id: test-route
+          uri: https://httpbin.org
+          predicates:
+            - Path=/test/**
 eureka:
   client:
     service-url:
