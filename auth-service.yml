@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/lomafood
-    username: postgres
+    username: u0_a758  
     password: roth2025k@1
 
   jpa:
