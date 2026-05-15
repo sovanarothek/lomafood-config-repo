@@ -4,11 +4,12 @@ server:
 spring:
   cloud:
     gateway:
-routes:
-        - id: test-route
-          uri: https://httpbin.org
+      routes:
+        - id: auth-service
+          uri: lb://auth-service
           predicates:
-            - Path=/test/**
+            - Path=/auth/**
+
 eureka:
   client:
     service-url:
