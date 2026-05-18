@@ -41,7 +41,7 @@ eureka:
     prefer-ip-address: true
 
 jwt:
-  secret: YOUR_REAL_SECRET
+  secret: O4F1lRdZMMWbfU1n4pZJg09GdVW8MsVpJ0L46BixJD8=
   expiration: 900000
   refresh-expiration: 604800000
 

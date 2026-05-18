@@ -61,7 +61,7 @@ eureka:
     prefer-ip-address: true
 
 jwt:
-  secret: PASTE_YOUR_SECRET_HERE
+  secret: O4F1lRdZMMWbfU1n4pZJg09GdVW8MsVpJ0L46BixJD8=
 
 management:
   endpoints:
