@@ -41,7 +41,7 @@ eureka:
     prefer-ip-address: true
 
 jwt:
-  secret: PASTE_YOUR_GENERATED_SECRET_HERE
+  secret: YOUR_REAL_SECRET
   expiration: 900000
   refresh-expiration: 604800000
 
